@@ -23,5 +23,13 @@ namespace SimpleListIndexer.models
         {
             return _data;
         }
+        public void SetNext(Entry<T> next)
+        {
+            _next = next;
+        }
+        public Entry<T> GetNext()
+        {
+            return _next;
+        }
     }
 }
